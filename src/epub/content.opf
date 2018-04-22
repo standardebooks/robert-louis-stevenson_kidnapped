@@ -30,6 +30,12 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Kidnapped</dc:title>
 		<meta property="file-as" refines="#title">Kidnapped</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Being Memoirs of the Adventures of David Balfour in the Year 1751</dc:title>
+		<meta property="file-as" refines="#subtitle">Being Memoirs of the Adventures of David Balfour in the Year 1751</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Kidnapped: Being Memoirs of the Adventures of David Balfour in the Year 1751</dc:title>
+		<meta property="file-as" refines="#fulltitle">Kidnapped</meta> <meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Scotland -- History -- 18th century -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Adventure and adventurers -- Fiction</dc:subject>
@@ -45,7 +51,7 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Written in 1886, &lt;i&gt;Kidnapped&lt;/i&gt; is an adventure novel set in Scotland in the mid 1700s, not long after the Jacobite rebellion in the Highlands which had attempted to set Bonnie Prince Charlie on the throne. This rebellion was put down brutally and afterwards the Government imposed strict controls on Highlanders, outlawing many clan leaders.&lt;/p&gt;
-			&lt;p&gt;The protagonist of Stevenson’s novel is young David Balfour, who is in his late teens. David sets off from his home town after the death of both of his parents to seek out his sole remaining relative, his uncle Ebenezer. Expecting to be welcomed, he is shocked by the hostile reception he is given by the old man, who is a hermit much despised by his neighbours. Ebenezer tricks young David and arranges for him to be kidnapped and taken to be sold into slavery. A series of unexpected events occur, however, and David finds himself at large in the Highlands, seeking the help of the outlaw Alan Breck Stewart, who entangles in further complications.&lt;/p&gt;
+			&lt;p&gt;The protagonist of Stevenson’s novel is young David Balfour, who is in his late teens. David sets off from his home town after the death of both of his parents to seek out his sole remaining relative, his uncle Ebenezer. Expecting to be welcomed, he is shocked by the hostile reception he is given by the old man, who is a hermit much despised by his neighbours. Ebenezer tricks young David and arranges for him to be kidnapped and taken to be sold into slavery. A series of unexpected events occur, however, and David finds himself at large in the Highlands, seeking the help of the outlaw Alan Breck Stewart, who entangles him in further complications.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Kidnapped&lt;/i&gt; is one of Stevenson’s most popular novels for young people, and has been adapted several times for movies and television.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
