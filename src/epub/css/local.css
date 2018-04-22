@@ -14,11 +14,42 @@ b{
 	font-variant: small-caps;
 }
 
+[epub|type~="se:letter.dateline"]{
+	margin-bottom: 1em;
+	text-align: right;
+	font-style: italic;
+}
+
 .signature{
 	font-variant: small-caps;
 }
 
 [epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:valediction"]{
+	text-align: right;
+}
+
+[epub|type~="z3998:sender"]{
+	text-align: right;
+}
+
+section[epub|type~="dedication"] header > p{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+section[epub|type~="dedication"] footer > p{
+	font-variant: small-caps;
+	text-align: right;
+	margin-top: 1em;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
 	font-variant: small-caps;
 }
 
@@ -28,25 +59,42 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-[epub|type~="z3998:song"],
-[epub|type~="z3998:verse"] p{
+[epub|type~="z3998:song"] p{
 	text-align: left;
+	text-indent: 0;
+	margin-bottom: 1em;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:song"] + p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"],
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+	margin-bottom: 1em;
+}
+
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:song"],
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:song"],
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
 }
