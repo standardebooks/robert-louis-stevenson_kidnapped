@@ -62,7 +62,6 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 [epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
-	margin-bottom: 1em;
 }
 
 [epub|type~="z3998:song"] p > span{
@@ -75,6 +74,10 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	display: none;
 }
 
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
+
 [epub|type~="z3998:song"] + p{
 	text-indent: 0;
 }
@@ -82,7 +85,6 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
-	margin-bottom: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span{
