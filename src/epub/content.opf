@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Kidnapped</dc:title>
 		<meta property="file-as" refines="#title">Kidnapped</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -40,21 +40,23 @@
 		<dc:subject id="subject-2">Scotland -- History -- 18th century -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Adventure and adventurers -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Kidnapping -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/421</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/421</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/421</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/421</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85061165</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008111699</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008106302</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Childrens</meta>
 		<dc:description id="description">After his parents die, a young Scottish man travels to see his only remaining relative, expecting to be welcomed, but instead finds his life and liberty in grave danger.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Written in 1886, &lt;i&gt;Kidnapped&lt;/i&gt; is an adventure novel set in Scotland in the mid-1700s, not long after the Jacobite rebellion in the Highlands which had attempted to set Bonnie Prince Charlie on the throne. This rebellion was put down brutally and afterwards the Government imposed strict controls on Highlanders, outlawing many clan leaders.&lt;/p&gt;
 			&lt;p&gt;The protagonist of Stevenson’s novel is young David Balfour, who is in his late teens. David sets off from his hometown after the death of both of his parents to seek out his sole remaining relative, his uncle Ebenezer. Expecting to be welcomed, he is shocked by the hostile reception he is given by the old man, who is a hermit much despised by his neighbours. Ebenezer tricks young David and arranges for him to be kidnapped and taken to be sold into slavery. A series of unexpected events occur, however, and David finds himself at large in the Highlands, seeking the help of the outlaw Alan Breck Stewart, who entangles him in further complications.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Kidnapped&lt;/i&gt; is one of Stevenson’s most popular novels for young people, and has been adapted several times for movies and television.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/421</dc:source>
 		<dc:source>https://archive.org/details/kidnapped00stev</dc:source>
