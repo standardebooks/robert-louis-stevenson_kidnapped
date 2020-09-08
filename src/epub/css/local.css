@@ -26,12 +26,6 @@ footer{
 	margin-top: 1em;
 }
 
-section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
-	display: block;
-	font-size: .75em;
-	font-weight: normal;
-}
-
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
