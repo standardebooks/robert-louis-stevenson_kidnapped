@@ -15,10 +15,8 @@
 	font-variant: small-caps;
 }
 
-section[epub|type~="dedication"] header{
-	font-variant: small-caps;
-	margin-bottom: 1em;
-	text-align: left;
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
 }
 
 footer{
