@@ -77,11 +77,11 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">aft</meta>
-		<dc:contributor id="artist">J. M. W. Turner</dc:contributor>
-		<meta property="file-as" refines="#artist">Turner, Joseph Mallord William</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Joseph Mallord William Turner</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/J._M._W._Turner</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79060712</meta>
+		<dc:contributor id="artist">N. C. Wyeth</dc:contributor>
+		<meta property="file-as" refines="#artist">Wyeth, N. C.</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Newell Convers Wyeth</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/N.C._Wyeth</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79054878</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">An Anonymous Volunteer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Anonymous Volunteer, An</meta>
