@@ -11,11 +11,12 @@
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:salutation"]{
+[epub|type~="z3998:salutation"],
+#dedication h2 + p{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:salutation"] + p{
+#dedication h2 + p + p{
 	text-indent: 0;
 }
 
