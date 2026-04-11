@@ -76,6 +76,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aft</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">waw</meta>
 		<dc:contributor id="artist">N. C. Wyeth</dc:contributor>
 		<meta property="file-as" refines="#artist">Wyeth, N. C.</meta>
